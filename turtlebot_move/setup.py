@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-       		'move_turtlebot = turtlebot_move.Final_main:main',
+       		'move_turtlebot = turtlebot_move.final_main:main',
             'gen3lite_pymoveit2 = 516_final.gen3lite_pymoveit2:main',
         ],
     },
