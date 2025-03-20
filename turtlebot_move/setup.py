@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
        		'move_turtlebot = turtlebot_move.move_turtlebot:main',
+            'gen3lite_pymoveit2 = 516_final.gen3lite_pymoveit2:main',
         ],
     },
 )
